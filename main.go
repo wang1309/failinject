@@ -1,4 +1,4 @@
-package failinject
+package main
 
 import (
 	"fmt"
