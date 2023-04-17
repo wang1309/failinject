@@ -15,6 +15,6 @@ test:
 fmt:
 	gofmt -w -l -s $(SRCS)
 
-gofail:
+run:
 	GO_BUILD_FLAGS="-v" ./build.sh
 	./gofail --version
